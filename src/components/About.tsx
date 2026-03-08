@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { MapPin, GraduationCap, Briefcase, Code2 } from "lucide-react";
+import { MapPin, GraduationCap, Briefcase, Code2, Palette } from "lucide-react";
 
 const highlights = [
   {
@@ -21,8 +21,13 @@ const highlights = [
   },
   {
     icon: Code2,
-    label: "Specialties",
+    label: "Dev Stack",
     value: "Flutter, Django, React, Docker",
+  },
+  {
+    icon: Palette,
+    label: "Design",
+    value: "Adobe Photoshop & Illustrator",
   },
 ];
 
@@ -48,10 +53,11 @@ export default function About() {
             transition={{ duration: 0.5, delay: 0.1 }}
           >
             <p className="text-gray-400 leading-relaxed mb-6">
-              I&apos;m a passionate Full-Stack Developer based in Nouakchott,
-              Mauritania, currently studying at ESP (Ecole Superieure
-              Polytechnique). I specialize in building end-to-end applications
-              spanning web and mobile platforms.
+              I&apos;m a passionate Full-Stack Developer and Graphic Designer
+              based in Nouakchott, Mauritania, currently studying at ESP (Ecole
+              Superieure Polytechnique). I specialize in building end-to-end
+              applications spanning web and mobile platforms, as well as creating
+              compelling visual designs.
             </p>
             <p className="text-gray-400 leading-relaxed mb-6">
               My work focuses on creating intelligent, real-world solutions. I
@@ -62,10 +68,11 @@ export default function About() {
               delivery platform with real-time tracking and route optimization.
             </p>
             <p className="text-gray-400 leading-relaxed">
-              I enjoy working across the full stack &mdash; from designing REST
-              APIs with Django to crafting responsive UIs with React and building
-              cross-platform mobile apps with Flutter. I&apos;m also experienced
-              with DevOps practices using Docker and CI/CD pipelines.
+              Beyond code, I bring a strong eye for design &mdash; creating
+              brand identities, marketing materials, logos, and event visuals
+              using Adobe Photoshop and Illustrator. I believe great software
+              starts with great design, and I combine both skills to deliver
+              polished, user-centered products.
             </p>
           </motion.div>
 
@@ -76,7 +83,7 @@ export default function About() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="grid grid-cols-1 sm:grid-cols-2 gap-4"
           >
-            {highlights.map(({ icon: Icon, label, value }, i) => (
+            {highlights.map(({ icon: Icon, label, value }) => (
               <div
                 key={label}
                 className="p-5 rounded-xl bg-surface border border-border card-hover glow-hover"

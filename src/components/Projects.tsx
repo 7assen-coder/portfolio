@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ExternalLink, Github, Smartphone, Globe, Server } from "lucide-react";
+import { ExternalLink, Github, Smartphone, Globe, Server, Palette } from "lucide-react";
 
 const projects = [
   {
@@ -54,6 +54,16 @@ const projects = [
     color: "from-orange-500/20 to-red-500/20",
     borderColor: "border-orange-500/20 hover:border-orange-500/40",
   },
+  {
+    title: "Graphic Design Work",
+    subtitle: "Brand Identity & Marketing Design",
+    description:
+      "Certified graphic designer creating visual content for marketing campaigns, brand identities, logos, event banners, and print materials. Experienced with Adobe Photoshop and Illustrator for professional-grade design output.",
+    tech: ["Adobe Photoshop", "Adobe Illustrator", "Logo Design", "Print Design", "Branding"],
+    icon: Palette,
+    color: "from-pink-500/20 to-rose-500/20",
+    borderColor: "border-pink-500/20 hover:border-pink-500/40",
+  },
 ];
 
 export default function Projects() {
@@ -69,8 +79,8 @@ export default function Projects() {
           <h2 className="text-3xl font-bold mb-2">Projects</h2>
           <div className="w-16 h-1 bg-primary rounded-full mb-4" />
           <p className="text-gray-500 mb-12 max-w-xl">
-            A selection of projects I&apos;ve built, from intelligent systems to
-            delivery platforms and academic tools.
+            A selection of projects I&apos;ve built and designed, from intelligent
+            systems to delivery platforms, academic tools, and creative work.
           </p>
         </motion.div>
 

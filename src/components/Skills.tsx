@@ -33,6 +33,16 @@ const skillCategories = [
     ],
   },
   {
+    title: "Graphic Design",
+    skills: [
+      { name: "Adobe Photoshop", level: 80 },
+      { name: "Adobe Illustrator", level: 75 },
+      { name: "Logo Design", level: 72 },
+      { name: "Marketing Materials", level: 70 },
+      { name: "UI/UX Design", level: 60 },
+    ],
+  },
+  {
     title: "Databases & Infrastructure",
     skills: [
       { name: "PostgreSQL", level: 70 },
@@ -66,7 +76,8 @@ export default function Skills() {
           <h2 className="text-3xl font-bold mb-2">Skills & Technologies</h2>
           <div className="w-16 h-1 bg-primary rounded-full mb-4" />
           <p className="text-gray-500 mb-12 max-w-xl">
-            Technologies and tools I use to bring ideas to life.
+            Technologies and tools I use to bring ideas to life &mdash; from
+            code to canvas.
           </p>
         </motion.div>
 

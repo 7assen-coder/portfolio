@@ -45,7 +45,7 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="text-xl md:text-2xl text-gray-400 mb-4 font-light"
         >
-          Full-Stack Developer
+          Full-Stack Developer & Graphic Designer
         </motion.p>
 
         <motion.p
@@ -58,8 +58,11 @@ export default function Hero() {
           <span className="text-primary-light">Flutter</span>,{" "}
           <span className="text-primary-light">Django</span>,{" "}
           <span className="text-primary-light">React</span> &{" "}
-          <span className="text-primary-light">Docker</span>. Creator of RAQIB
-          & Tawssil. Based in Nouakchott, Mauritania.
+          <span className="text-primary-light">Docker</span>. Crafting visual
+          identities with{" "}
+          <span className="text-primary-light">Photoshop</span> &{" "}
+          <span className="text-primary-light">Illustrator</span>. Based in
+          Nouakchott, Mauritania.
         </motion.p>
 
         <motion.div
@@ -96,7 +99,7 @@ export default function Hero() {
             },
             {
               icon: Linkedin,
-              href: "https://linkedin.com/in/mohamed-douiery-a48496373",
+              href: "https://linkedin.com/in/mohamed-hassen-a48496373",
               label: "LinkedIn",
             },
             {
@@ -129,7 +132,10 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.8 }}
           className="absolute bottom-10 left-1/2 -translate-x-1/2"
         >
-          <a href="#about" className="text-gray-600 hover:text-gray-400 transition-colors">
+          <a
+            href="#about"
+            className="text-gray-600 hover:text-gray-400 transition-colors"
+          >
             <ArrowDown size={20} className="animate-bounce" />
           </a>
         </motion.div>
