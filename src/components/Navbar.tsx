@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Image from "next/image";
 import { Menu, X } from "lucide-react";
 
 const navLinks = [
@@ -30,11 +31,14 @@ export default function Navbar() {
       }`}
     >
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-        <a
-          href="#home"
-          className="text-xl font-bold gradient-text tracking-tight"
-        >
-          MH.
+        <a href="#home" className="flex items-center gap-2">
+          <Image
+            src="/logo.png"
+            alt="MH Logo"
+            width={32}
+            height={32}
+            className="invert"
+          />
         </a>
 
         {/* Desktop */}
@@ -51,8 +55,7 @@ export default function Navbar() {
           ))}
           <li>
             <a
-              href="/resume.pdf"
-              target="_blank"
+              href="/resume"
               className="text-sm px-4 py-2 rounded-lg bg-primary/10 text-primary-light border border-primary/20 hover:bg-primary/20 transition-all"
             >
               Resume
@@ -84,6 +87,14 @@ export default function Navbar() {
                 </a>
               </li>
             ))}
+            <li>
+              <a
+                href="/resume"
+                className="text-sm px-4 py-2 rounded-lg bg-primary/10 text-primary-light border border-primary/20 hover:bg-primary/20 transition-all"
+              >
+                Resume
+              </a>
+            </li>
           </ul>
         </div>
       )}
