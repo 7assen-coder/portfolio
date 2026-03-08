@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Mohammed Hassen - Portfolio
+
+My personal portfolio website showcasing my projects, skills, and experience as a Full-Stack Developer.
+
+**Live:** [portfolio-two-jet-bizomfcb9y.vercel.app](https://portfolio-two-jet-bizomfcb9y.vercel.app)
+
+## Tech Stack
+
+- **Framework:** Next.js 16 (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Animations:** Framer Motion
+- **Icons:** Lucide React
+- **Deployment:** Vercel
+
+## Features
+
+- Responsive design (mobile, tablet, desktop)
+- Smooth scroll navigation with animated navbar
+- Hero section with social links
+- About section with highlights
+- Project showcase (RAQIB, Tawssil, ISCAE Portal, and more)
+- Skills section with animated progress bars
+- Contact form (via FormSubmit)
+- Dark theme with gradient accents
+
+## Projects Featured
+
+| Project | Description | Tech |
+|---------|-------------|------|
+| **RAQIB** | Intelligent Attendance Management System with WiFi-based verification & facial recognition | Django, React, Flutter, PostgreSQL, Docker |
+| **Tawssil** | Smart Delivery Platform with real-time tracking & route optimization | Flutter, Dart, Riverpod |
+| **ISCAE Portal** | Academic Institution Platform for student & admin management | JavaScript, Node.js, Express |
+| **Enterprise Projects** | JEE, PHP & .NET applications | Java EE, PHP, .NET MAUI, C# |
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+# Clone the repo
+git clone https://github.com/7assen-coder/portfolio.git
+cd portfolio
+
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view it.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Contact
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Email:** Sidahmedmhd08@gmail.com
+- **Phone:** +222 41824343
+- **LinkedIn:** [Mohammed Hassen](https://linkedin.com/in/mohamed-douiery-a48496373)
+- **GitHub:** [7assen-coder](https://github.com/7assen-coder)
 
-## Learn More
+## License
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT
