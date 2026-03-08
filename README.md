@@ -2,7 +2,7 @@
 
 My personal portfolio website showcasing my projects, skills, and experience as a Full-Stack Developer.
 
-**Live:** [portfolio-two-jet-bizomfcb9y.vercel.app](https://portfolio-two-jet-bizomfcb9y.vercel.app)
+**Live:** [portfolio-drhx-85gz8w2qc-7assen-coders-projects.vercel.app](https://portfolio-drhx-85gz8w2qc-7assen-coders-projects.vercel.app)
 
 ## Tech Stack
 
