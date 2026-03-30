@@ -1,9 +1,35 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ExternalLink, Github, Smartphone, Globe, Server, Palette } from "lucide-react";
+import {
+  Github,
+  Smartphone,
+  Globe,
+  Server,
+  Palette,
+  LayoutDashboard,
+} from "lucide-react";
 
 const projects = [
+  {
+    title: "ESP Data Club — Datathon",
+    subtitle: "Event operations & candidate workflow",
+    description:
+      "Full-stack platform for ESP Data Club events: Django REST API, React (Vite) admin with QR verification, invitations, and candidate management — built for real datathon operations.",
+    tech: [
+      "Django",
+      "DRF",
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "PostgreSQL",
+      "Docker",
+    ],
+    icon: LayoutDashboard,
+    color: "from-violet-500/20 to-fuchsia-500/20",
+    borderColor: "border-violet-500/20 hover:border-violet-500/40",
+    githubUrl: "https://github.com/7assen-coder/espdc-datathon",
+  },
   {
     title: "RAQIB",
     subtitle: "Intelligent Attendance Management System",
@@ -94,7 +120,6 @@ export default function Projects() {
               transition={{ duration: 0.4, delay: i * 0.1 }}
               className={`group relative p-6 rounded-2xl bg-surface border ${project.borderColor} card-hover glow-hover overflow-hidden`}
             >
-              {/* Gradient bg */}
               <div
                 className={`absolute inset-0 bg-gradient-to-br ${project.color} opacity-0 group-hover:opacity-100 transition-opacity duration-500`}
               />
@@ -129,6 +154,17 @@ export default function Projects() {
                     </span>
                   ))}
                 </div>
+                {"githubUrl" in project && project.githubUrl ? (
+                  <a
+                    href={project.githubUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1.5 mt-4 text-xs font-medium text-primary-light hover:underline"
+                  >
+                    <Github size={14} aria-hidden />
+                    View on GitHub
+                  </a>
+                ) : null}
               </div>
             </motion.div>
           ))}

@@ -18,16 +18,22 @@ My personal portfolio website showcasing my projects, skills, and experience as 
 - Responsive design (mobile, tablet, desktop)
 - Smooth scroll navigation with animated navbar
 - Hero section with social links
-- About section with highlights
-- Project showcase (RAQIB, Tawssil, ISCAE Portal, and more)
+- About section with highlights (including ESP Data Club / datathon work)
+- Project showcase (ESP Data Club datathon, RAQIB, Tawssil, ISCAE Portal, and more)
+- **GitHub section:** live stats & language charts (via [github-readme-stats](https://github.com/anuraghazra/github-readme-stats)), achievement-style badges, and **automatically fetched** public repositories (pinned order + latest pushes; ISR revalidate 1h)
 - Skills section with animated progress bars
 - Contact form (via FormSubmit)
 - Dark theme with gradient accents
+
+### Environment
+
+Copy `.env.example` to `.env.local` if you use a GitHub token for higher API limits when fetching repos.
 
 ## Projects Featured
 
 | Project | Description | Tech |
 |---------|-------------|------|
+| **ESP Data Club — Datathon** | Event ops: invitations, QR verification, candidates (Django + React/Vite) | Django, DRF, React, Vite, Tailwind, PostgreSQL, Docker |
 | **RAQIB** | Intelligent Attendance Management System with WiFi-based verification & facial recognition | Django, React, Flutter, PostgreSQL, Docker |
 | **Tawssil** | Smart Delivery Platform with real-time tracking & route optimization | Flutter, Dart, Riverpod |
 | **ISCAE Portal** | Academic Institution Platform for student & admin management | JavaScript, Node.js, Express |

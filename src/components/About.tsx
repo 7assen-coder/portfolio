@@ -22,7 +22,7 @@ const highlights = [
   {
     icon: Code2,
     label: "Dev Stack",
-    value: "Flutter, Django, React, Docker",
+    value: "Flutter, Django, React, Next.js, Docker",
   },
   {
     icon: Palette,
@@ -60,12 +60,19 @@ export default function About() {
               compelling visual designs.
             </p>
             <p className="text-gray-400 leading-relaxed mb-6">
-              My work focuses on creating intelligent, real-world solutions. I
-              built <span className="text-white font-medium">RAQIB</span>, an
-              attendance management system combining WiFi-based location
-              verification with facial recognition, and{" "}
-              <span className="text-white font-medium">Tawssil</span>, a smart
-              delivery platform with real-time tracking and route optimization.
+              With{" "}
+              <span className="text-white font-medium">ESP Data Club</span>, I
+              ship event tooling end-to-end — the{" "}
+              <span className="text-white font-medium">espdc-datathon</span>{" "}
+              stack (Django + React/Vite) covers invitations, QR check-in, and
+              candidate workflows for datathon operations.
+            </p>
+            <p className="text-gray-400 leading-relaxed mb-6">
+              My work focuses on intelligent, real-world systems:{" "}
+              <span className="text-white font-medium">RAQIB</span> for
+              attendance with WiFi verification and facial recognition, and{" "}
+              <span className="text-white font-medium">Tawssil</span> for
+              delivery with live tracking and route optimization.
             </p>
             <p className="text-gray-400 leading-relaxed">
               Beyond code, I bring a strong eye for design &mdash; creating
