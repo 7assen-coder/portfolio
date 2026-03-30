@@ -20,7 +20,7 @@ My personal portfolio website showcasing my projects, skills, and experience as 
 - Hero section with social links
 - About section with highlights (including ESP Data Club / datathon work)
 - Project showcase (ESP Data Club datathon, RAQIB, Tawssil, ISCAE Portal, and more)
-- **GitHub section:** live stats & language charts (via [github-readme-stats](https://github.com/anuraghazra/github-readme-stats)), achievement-style badges, and **automatically fetched** public repositories (pinned order + latest pushes; ISR revalidate 1h)
+- **GitHub section:** stats & language breakdown from the **GitHub REST API** (no third-party stat images), achievement-style badges, and **automatically fetched** public repositories (pinned order + latest pushes; ISR revalidate 1h)
 - Skills section with animated progress bars
 - Contact form (via FormSubmit)
 - Dark theme with gradient accents
